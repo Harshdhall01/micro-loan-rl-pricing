@@ -51,10 +51,10 @@ and demographic fairness.
 
 ## 🏗️ Architecture
 
-```
+
 ![System Architecture](results/architecture.png)
 
-```
+
 
 ---
 
