@@ -168,28 +168,11 @@ python evaluation/stress_test.py
 
 ## 📊 Results Summary
 
-### Graph 1 — RL Agent vs Baseline Comparison
-Compares mean episode reward across PPO RL Agent, Fixed Rate (18%),
-Random Rate, and Rule-Based policies. The RL agent consistently
-outperforms all baselines by learning context-aware pricing.
-
-### Graph 2 — Default Rate Comparison
-Shows loan default rates across all policies. The RL agent achieves
-lower default rates by correctly pricing high-risk borrowers.
-
-### Graph 3 — PPO Learning Curve
-Tracks reward improvement over 100,000 training timesteps.
-The agent shows rapid initial learning followed by stable convergence.
-
-### Graph 4 — Stress Test Results
-Performance under Normal, Recession, High Inflation, and Pandemic Shock.
-The RL agent dynamically adapts rates to economic conditions rather than
-applying rigid rules.
-
-### Graph 5 — Fairness Analysis
-Compares average rates charged to Rural, Semi-Urban, and Urban borrowers.
-The RL agent shows a smaller rural-urban rate gap than the Fixed Rate
-baseline, demonstrating learned fairness.
+![RL vs Baselines](results/graphs/graph1_reward_comparison.png)
+![Default Rates](results/graphs/graph2_default_rate_comparison.png)
+![Learning Curve](results/graphs/graph3_learning_curve.png)
+![Stress Test](results/graphs/graph4_stress_test.png)
+![Fairness Analysis](results/graphs/graph5_fairness_analysis.png)
 
 ---
 
